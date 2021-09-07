@@ -1,0 +1,344 @@
+body {
+	
+	font-family: 'Rubik', sans-serif;
+	background: linear-gradient(45deg, #cfcfcf 8.5%, #fff 8.5%, #fff 41.5%, #cfcfcf 41.5%, #cfcfcf 58.5%, #fff 58.5%, #fff 91.5%, #cfcfcf 91.5%);
+  background-size: 10px 10px;
+  
+}
+
+
+
+
+.boja1 {
+background-color:#db5461ff;
+}
+
+.boja2 {
+background-color:#686963ff;
+}
+
+.boja3 {
+background-color:#8aa29eff;
+}
+
+.boja4 {
+	background-color:#3d5467ff;
+
+}
+
+.boja5 {
+	background-color: #7bc576;
+
+}
+
+
+
+
+#Meni {
+top:22px;
+}
+
+.container1 {
+	/*float:right;
+	margin-right:100px;*/
+	/*width: 80%;
+	margin:0 auto;*/
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+
+.ime-prezime, .about, .albums, .visual1, .contact {
+	position: relative;
+	display: flex;
+	background-color: white;
+	z-index: 1;
+	width: 19%;
+	border:5px solid black;
+	justify-content: center;
+	transition: 0.35s;
+}
+
+
+.container1 a {
+	text-decoration: none;
+}
+
+.curtain {
+
+	position: absolute;
+	z-index:-2;
+	height: 100%;
+	width: 20px;
+	bottom:0;
+	left: 0;
+	transition: 0.2s;
+
+}
+
+.ime-prezime:hover, .about:hover, .albums:hover, .visual1:hover, .contact:hover {
+	
+	cursor: pointer;
+}
+
+.ime-prezime:hover .curtain, .about:hover .curtain, .albums:hover .curtain, .visual1:hover .curtain, .contact:hover .curtain {
+	width: 100%;
+}
+
+
+
+
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	color:black;
+}
+
+  
+
+
+
+ h1 {
+ 	font-size: 70px;
+}
+
+ h2 {
+ 	font-size: 40px;
+ }
+
+ #dimitar {
+ 	padding: 145px 0;
+}
+
+.main-title {
+	line-height: 0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	/*border:2px dashed red;*/
+	
+}
+
+.main-text {
+	position: relative;
+	text-align: left;
+	background-color: white;
+	padding: 60px 45px;
+	border:5px dashed black;
+	box-shadow: 10px 10px #db5461ff;
+}
+
+.scissors {
+	position: absolute;
+	top:-19px;
+	left:33px;
+	color:black;
+}
+
+.slika-dimitar {
+	background-image: url(images/dimitar.jpg);
+	background-size: cover;
+	background-position: center;
+	width: 390px;
+	height: 390px;
+	border-radius: 50%;
+	margin-right: 45px;
+	border:15px solid black;
+	transition: 0.2s;
+	
+}
+
+
+.slika-dimitar:hover {
+	box-shadow:0px 0px 0px 40px white;
+
+}
+
+.podnaslov {
+	font-family: 'Brygada 1918', serif;
+	font-style: italic;
+}
+
+#albumi {
+	position: relative;
+	top:115px;
+	margin-bottom: 150px;
+}
+
+.albumi-naslov {
+	position: absolute;
+	z-index: -1;
+	margin-left:-5px;
+	transform: translateY(-100%);
+
+	background-color: white;
+	border:5px solid black;
+	padding: 5px 35px;
+	box-shadow: 10px 10px #686963ff;
+
+}
+
+.container2 {
+	background-color: white;
+	border:5px solid black;
+	box-shadow: 10px 10px #686963ff;
+
+}
+
+.carousel-item {
+	text-align: center;
+}
+
+.item-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin:30px 60px;
+}
+
+.album-img {
+	position:relative;
+	left:35px;
+}
+
+.album-img img {
+	width: 380px;
+}
+
+
+.album-info {
+	position: relative;
+	text-align: left;
+	width: 40%;
+	left:-55px;
+}
+
+.album-info a {
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	border-bottom:5px solid #cfcfcf;
+	
+	margin: 30px 7px;
+	font-size:16px;
+	font-weight: bold;
+}
+
+.album-info a:hover {
+	border-bottom:5px solid black;
+}
+
+
+.carousel-item img {
+	/*width: 70%;*/
+	margin: 50px 0px;
+	box-shadow: 10px 10px grey;
+	transition: 0.2s;
+}
+
+.carousel-item img:hover {
+	box-shadow: 15px 15px #cfcfcf;
+}
+
+.slider-arrows {
+	color:black
+}
+
+.slider-arrows i {
+	font-size:35px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+	.container1 {
+	margin-right:44px;
+
+
+}
+
+	.container1, .container2 {
+		width: 80%;
+	}
+
+	.margin-menu {
+	margin-left: 0;
+}
+
+.ime-prezime, .about, .albums, .visual1, .contact {
+	
+	width: 100%;
+	margin:0 auto;
+	
+}
+
+ h1 {
+ 	font-size: 60px;
+ 	}
+
+
+
+.main-title {
+	flex-direction: column;
+	transform: scale(0.8);
+
+}
+
+
+.slika-dimitar {
+	margin-top:-190px;
+	margin-right: 0;
+	margin-bottom: 70px;
+}
+.main-text {
+	text-align: center;
+}
+
+#albumi {
+	margin-top: -170px;
+}
+
+
+.item-wrapper {
+	flex-direction: column;
+	margin:0;
+}
+
+.album-img img {
+	width: 100%;
+}
+
+.album-img {
+	left:0px;
+}
+
+.album-info {
+	left:0;
+}
+
+.album-info {
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+}
