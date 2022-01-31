@@ -1,0 +1,43 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New Musical_Item</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="item_name" class="form-label" style="margin-right:10px;">Item Name</label>
+    <input type="text" id="item_name" style="display: inline-block;" placeholder="Enter item name" name="item_name" data-ng-model="item_name">
+  </div>
+
+  <div class="my-3">
+    <label for="item_genre" class="form-label" style="margin-right:10px;">Item genre</label>
+    <input type="text" id="item_genre" style="display: inline-block;" placeholder="Enter new item genre" name="item_genre" data-ng-model="item_genre">
+  </div>
+
+
+  <div class="my-3">
+    <label for="item_style" class="form-label" style="margin-right:10px;">Sale item_style</label>
+    <input type="text" id="item_style" style="display: inline-block;" placeholder="Enter item style" name="item_style" data-ng-model="item_style">
+  </div>
+
+  <div class="my-3">
+    <label for="item_format" class="form-label" style="margin-right:10px;">Item format</label>
+    <input type="text" id="item_format" style="display: inline-block;" placeholder="Enter item format" name="item_format" data-ng-model="item_format">
+  </div>
+
+  <div class="my-3">
+    <label for="item_release_date" class="form-label" style="margin-right:10px;">Item release_date</label>
+    <input type="date" id="item_release_date" style="display: inline-block;" placeholder="Enter item release_date" name="item_release_date" data-ng-model="item_release_date">
+  </div>
+
+
+  <button data-ng-click="addItem(item_name,item_genre,item_style,item_format,item_release_date)" class="btn btn-warning">Save</button> <!-- primary key ne  se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>

@@ -1,0 +1,48 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New MS_Sale</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="customer_id" class="form-label" style="margin-right:10px;">Customer ID</label>
+    <!-- <input type="text" id="customer_id" style="display: inline-block;" placeholder="Enter new customer ID" name="customer_id" data-ng-model="customer_id"> -->
+    <select name="customer_id" id="customer_id" data-ng-model="customer_id">
+      <option value="">Izberi Musterija</option>
+      <option data-ng-repeat="musterija in ms_customer" value="{{musterija.customer_name}}">{{musterija.customer_name}}</option>
+    </select>
+
+
+  </div>
+
+  <div class="my-3">
+    <label for="item_id" class="form-label" style="margin-right:10px;">Item ID</label>
+    <!-- <input type="text" id="item_id" style="display: inline-block;" placeholder="Enter new item ID" name="item_id" data-ng-model="item_id"> -->
+    <select name="item_id" id="item_id" data-ng-model="item_id">
+      <option value="">Izberi Produkt</option>
+      <option data-ng-repeat="produkt in musical_item" value="{{produkt.item_name}}">{{produkt.item_name}}</option>
+    </select>
+
+  </div>
+
+
+  <div class="my-3">
+    <label for="sale_date" class="form-label" style="margin-right:10px;">Sale Date</label>
+    <input type="text" id="sale_date" style="display: inline-block;" placeholder="Enter sale date" name="sale_date" data-ng-model="sale_date">
+  </div>
+
+  <div class="my-3">
+    <label for="sale_price" class="form-label" style="margin-right:10px;">Sale Price</label>
+    <input type="text" id="sale_price" style="display: inline-block;" placeholder="Enter sale price" name="sale_price" data-ng-model="sale_price">
+  </div>
+
+  <button data-ng-click="addSale(customer_id,item_id,sale_date,sale_price)" class="btn btn-warning">Save</button> <!-- primary key ne  se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>

@@ -1,0 +1,50 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>musical_item</h3>
+
+<div class="funkcii">
+			<form action="#!details_musical_item">
+         		<button class="btn-warning rounded">Add Musical Item</button>
+     		</form>
+
+     		<!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     	</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>item_id</th>
+			<th>item_name</th>
+			<th>item_genre</th> 
+			<th>item_style</th> 
+			<th>
+				<!-- item_format -->
+				<select name="searchbyitem_format" id="searchbyitem_format" data-ng-model="searchbyitem_format">
+					<option value="">Select Item Format</option>
+					<option value="CD">CD</option>
+					<option value="Vinyl">Vinyl</option>
+					<option value="Tape">Tape</option>
+				</select>
+			</th> 
+			<th>item_release_date</th> 
+			<th title="IZMENI">Izmeni</th>
+			<th title="IZBRISI">Izbrisi</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="mItem in musical_item | filter:{item_format:searchbyitem_format}"> <!--mItem e varijabla-->
+			<td>{{mItem.item_id}}</td>
+			<td>{{mItem.item_name}}</td>
+			<!-- <td>{{prodazba.item_id}}</td> -->
+			<td>{{mItem.item_genre}}</td>
+			<td>{{mItem.item_style}}</td>
+			<td>{{mItem.item_format}}</td>
+			<td>{{mItem.item_release_date}}</td>
+			<td title="IZMENI"><button class="btn-warning rounded">Izmeni</button></td>
+			<td title="IZBRISI"><button class="btn-warning rounded">Izbrisi</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>

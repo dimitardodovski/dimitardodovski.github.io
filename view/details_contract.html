@@ -1,0 +1,49 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New Contract</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="label_id" class="form-label" style="margin-right:10px;">label_id</label>
+    <!-- <input type="text" id="label_id" style="display: inline-block;" placeholder="Enter label id" name="label_id" data-ng-model="label_id"> -->
+    <select class="form-label" id="label_id" name="label_id" data-ng-model="label_id">
+      <option value="">Odberi record_label</option>
+      <option data-ng-repeat="izdavac in record_label" value="{{izdavac.label_id}}">{{izdavac.label_name}}</option>
+    </select>
+  </div>
+
+  <div class="my-3">
+    <label for="item_id" class="form-label" style="margin-right:10px;">Item ID</label>
+    <!-- <input type="text" id="item_id" style="display: inline-block;" placeholder="Enter new item ID" name="item_id" data-ng-model="item_id"> -->
+    <select class="form-label" id="item_id" name="item_id" data-ng-model="item_id">
+      <option value="">Odberi musical_item</option>
+      <option data-ng-repeat="primerok in musical_item" value="{{primerok.item_id}}">{{primerok.item_name}}</option>
+    </select>
+
+
+
+  </div>
+
+  <div class="my-3">
+    <label for="artist_id" class="form-label" style="margin-right:10px;">artist ID</label>
+    <!-- <input type="text" id="artist_id" style="display: inline-block;" placeholder="Enter new artist ID" name="artist_id" data-ng-model="artist_id"> -->
+    <select class="form-label" id="artist_id" name="artist_id" data-ng-model="artist_id">
+      <option value="">Odberi artist</option>
+      <option data-ng-repeat="muzicar in artist" value="{{muzicar.artist_id}}">{{muzicar.artist_name}}</option>
+    </select>
+  </div>
+
+  
+
+
+  <button data-ng-click="addContract(label_id,item_id,artist_id)" class="btn btn-warning">Save</button> <!-- primary key ne  se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>

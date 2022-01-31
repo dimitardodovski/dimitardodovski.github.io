@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@200&family=Playfair+Display:wght@400;600;700&display=swap');
+
+body {
+	font-family: 'Playfair Display', serif;
+	background-color: #EDE9C5;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bolder;
+	margin-bottom: 50px;
+	border-bottom: 5px solid orange;
+	display:inline-block;
+	padding: 5px;
+}
+.musicshop-bg {
+	background-image: url(../img/bg2.jpg);
+	background-size: cover;
+	background-position: 0px -281px;
+	background-repeat: no-repeat;
+	line-height: 32px;
+}
+
+.musicshop-bg h1 {
+	font-size: 90px;
+}
+
+.text-navbar h4 {
+	color:#EDE9C5;
+}
+
+.subtext {
+	color:orange;
+	font-size: 13px;
+	opacity: 0.7;
+}
+
+.navbar-brand {
+	display: flex;
+	align-items: center;
+	line-height: 1rem;
+}
+
+.text-navbar {
+	margin-left: 1rem;
+}
+
+
+.fa-compact-disc {
+	font-size: 45px;
+	color:orange;
+	opacity:0.7;
+	animation: rotation 2s infinite linear;
+}
+
+.horizont {
+	font-size: 80px;
+}
+
+.fa-circle {
+	font-size:50px;
+	color:orange;
+	transform:translateY(-4px);
+}
+
+.funkcii {
+	display: flex;
+	margin-bottom: 1.5rem;
+}
+
+.searchArtist {
+	margin-left: 10px;
+	font-weight: bolder;
+}
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.navbar {
+	background-color: #281C1C;
+	box-sizing: border-box;
+	padding: 20px 0;
+}
+
+.navbar a {
+	color:#EDE9C5;
+	border-top:5px solid transparent;
+	border-bottom:5px solid transparent;
+}
+
+.navbar a:hover{
+	color:orange;
+	border-bottom: 5px solid orange;
+}
+
+.nav-link {
+	font-size: 1rem;
+}
+
+.nav-link:focus, .nav-link:hover {
+	color:orange;
+}
+
+
+.btn-warning {
+	padding: 5px;
+}
+
+.filter05 {
+	background-color: rgba(0,0,0,0.4);
+	padding: 90px 0 90px 0;
+}
+
+.filter05 p {
+	font-size: 40px;
+	color:orange;
+}
+
+.ngbackground {
+	background-color: #EDE9C5;
+}
+
+
+
+@media (max-width: 576px) { 
+	.musicshop-bg {	
+	background-position: center;
+
+}
+
+.fa-compact-disc {
+	font-size:100px;
+	margin-bottom: 10px;
+}
+
+.text-navbar h4 {
+	font-size: 50px;
+}
+
+.subtext {
+	font-size: 25px;
+	text-align: center;
+
+}
+
+.navbar-brand {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	text-align: center;
+	line-height: 1rem;
+	width:100%;
+	margin-bottom: 20px;
+}
+	
+.navbar-nav {
+	margin:0 auto;
+}
+.nav-link {
+	font-size: 25px;
+	text-align: center;
+}
+}

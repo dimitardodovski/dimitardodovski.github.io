@@ -1,0 +1,29 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New Record Label</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="label_name" class="form-label" style="margin-right:10px;">label_name</label>
+    <input type="text" id="label_name" style="display: inline-block;" placeholder="Enter labelname" name="label_name" data-ng-model="label_name">
+  </div>
+
+    <div class="my-3">
+    <label for="label_country" class="form-label" style="margin-right:10px;">label_country</label>
+    <input type="text" id="label_country" style="display: inline-block;" placeholder="Enter labelcountry" name="label_country" data-ng-model="label_country">
+  </div>
+
+
+
+ 
+  <button data-ng-click="addLabel(label_name,label_country)" class="btn btn-warning">Save</button> <!-- primary key ne  se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>

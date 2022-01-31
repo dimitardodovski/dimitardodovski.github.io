@@ -1,0 +1,39 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>music_shop</h3>
+
+<div class="funkcii">
+			<form action="#!details_music_shop">
+         		<button class="btn-warning rounded">Add Music Shop</button>
+     		</form>
+
+     		<!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     	</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>music_shop_id</th>
+			<th>music_shop_name</th>
+			<th>music_shop_address</th> 
+			<th>music_shop_email</th> 
+					
+			<th title="IZMENI"><button class="btn">Izmeni</button></th>
+			<th title="IZBRISI"><button class="btn">Izbrisi</button></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="prodavnica in music_shop"> <!--prodavnica e varijabla-->
+			<td>{{prodavnica.music_shop_id}}</td>
+			<td>{{prodavnica.music_shop_name}}</td>
+			<td>{{prodavnica.music_shop_address}}</td>
+			<td>{{prodavnica.music_shop_email}}</td>
+		
+			<td title="IZMENI"><button class="btn-warning rounded">Izmeni</button></td>
+			<td title="IZBRISI"><button class="btn-warning rounded">Izbrisi</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>

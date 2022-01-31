@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<artist>
+	<artist_vnesen>
+		<artist_id>1</artist_id>
+		<artist_name>The Orb</artist_name>
+		
+	</artist_vnesen>
+
+	<artist_vnesen>
+		<artist_id>2</artist_id>
+		<artist_name>Orbital</artist_name>
+	</artist_vnesen>
+
+	<artist_vnesen>
+		<artist_id>3</artist_id>
+		<artist_name>FSOL</artist_name>
+	</artist_vnesen>
+</artist>

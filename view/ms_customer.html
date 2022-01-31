@@ -1,0 +1,37 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>ms_customer</h3>
+
+		<div class="funkcii">
+			<form action="#!details_ms_customer">
+         		<button class="btn-warning">Add MS_Customer</button>
+     		</form>
+
+     		<!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     	</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>customer_id</th>
+			<th>customer_name</th>
+			<th>customer_address</th>
+			<th>music shop</th>
+			<th title="IZMENI">Izmeni</th>
+			<th title="IZBRISI">Izbrisi</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="employee in ms_customer"> <!-- employee e varijabla-->
+			<td>{{employee.customer_id}}</td>
+			<td>{{employee.customer_name}}</td>
+			<td>{{employee.customer_address}}</td>
+			<td>{{employee.music_shop_name}}</td>
+			<td title="IZMENI"><button class="btn-warning rounded">Izmeni</button></td>
+			<td title="IZBRISI"><button class="btn-warning rounded">Izbrisi</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>

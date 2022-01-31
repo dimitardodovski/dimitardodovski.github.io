@@ -1,0 +1,36 @@
+  <!--css -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New Music Shop</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="music_shop_name" class="form-label" style="margin-right:10px;">music_shop_name</label>
+    <input type="text" id="music_shop_name" style="display: inline-block;" placeholder="Enter music_shop_name" name="music_shop_name" data-ng-model="music_shop_name">
+  </div>
+
+  <div class="my-3">
+    <label for="music_shop_address" class="form-label" style="margin-right:10px;">music_shop_address</label>
+    <input type="text" id="music_shop_address" style="display: inline-block;" placeholder="Enter music_shop_address" name="music_shop_address" data-ng-model="music_shop_address">
+  </div>
+
+  <div class="my-3">
+    <label for="music_shop_email" class="form-label" style="margin-right:10px;">music_shop_email</label>
+    <input type="text" id="music_shop_email" style="display: inline-block;" placeholder="Enter music_shop_email" name="music_shop_email" data-ng-model="music_shop_email">
+  </div>
+
+ 
+
+
+
+ 
+  <button data-ng-click="addShop(music_shop_name,music_shop_address,music_shop_email)" class="btn btn-warning">Save</button> <!-- primary key ne  se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>

@@ -1,0 +1,13 @@
+var app = angular.module('myApp', ["ngRoute"]);
+app.controller('myCtrl', function($scope) {
+//controller
+/*******************************/
+/*			Object			   */
+/*******************************/
+$scope.vraboteni=
+[
+{"vr_id":1,"ime":"Ljubisa","prezime":"Popovski"},
+{"vr_id":2,"ime":"Matej","prezime":"Popovski"},
+{"vr_id":2,"ime":"Matej","prezime":"Nikolov"}
+];
+});

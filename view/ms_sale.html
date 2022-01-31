@@ -1,0 +1,40 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>ms_sale</h3>
+
+	<div class="funkcii">
+        <form action="#!details_ms_sale">
+            <button class="btn-warning rounded">Add Sale</button>
+        </form>
+
+        <button class="btn-warning rounded mx-3">Edit</button>
+        <button class="btn-warning rounded">Delete</button>
+
+        <!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     </div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>sale_id</th>
+			<th>customer_name</th>
+			<!-- <th>item_id</th> -->
+			<th>item_name</th> 
+			<th>sale_date</th> 
+			<th>sale_price</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="prodazba in ms_sale"> <!--prodazba e varijabla-->
+			<td>{{prodazba.sale_id}}</td>
+			<td>{{prodazba.customer_name}}</td>
+			<!-- <td>{{prodazba.item_id}}</td> -->
+			<td>{{prodazba.item_name}}</td>
+			<td>{{prodazba.sale_date}}</td>
+			<td>{{prodazba.sale_price}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>

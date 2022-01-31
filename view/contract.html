@@ -1,0 +1,34 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>contract</h3>
+
+		<div class="funkcii">
+			<form action="#!details_contract">
+         		<button class="btn-warning rounded">Add Contract</button>
+     		</form>
+
+     		<!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     	</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>contract_id</th>
+			<th>label_id</th>
+			<th>item_id</th> 
+			<th>artist_id</th>			
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="contractItem in contract"> <!--contractItem e varijabla-->
+			<td>{{contractItem.contract_id}}</td>
+			<td>{{contractItem.label_name}}</td>
+			<!-- <td>{{prodazba.item_id}}</td> -->
+			<td>{{contractItem.item_name}}</td>
+			<td>{{contractItem.artist_name}}</td>
+		</tr>
+	</tbody>
+</table>
+</div>

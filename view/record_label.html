@@ -1,0 +1,37 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container-fluid p-5">
+<h3>record_label</h3>
+
+<div class="funkcii">
+			<form action="#!details_record_label">
+         		<button class="btn-warning rounded">Add Record Label</button>
+     		</form>
+
+     		<!-- <input type="text" class="searchArtist" placeholder="Search..."> -->
+     	</div>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th>label_id</th>
+			<th>label_name</th>
+			<th>label_country</th> 
+					
+			<th title="IZMENI"><button class="btn">Izmeni</button></th>
+			<th title="IZBRISI"><button class="btn">Izbrisi</button></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr data-ng-repeat="labelItem in record_label"> <!--labelItem e varijabla-->
+			<td>{{labelItem.label_id}}</td>
+			<td>{{labelItem.label_name}}</td>
+			<td>{{labelItem.label_country}}</td>
+		
+			<td title="IZMENI"><button class="btn-warning rounded">Izmeni</button></td>
+			<td title="IZBRISI"><button class="btn-warning rounded">Izbrisi</button></td>
+		</tr>
+	</tbody>
+</table>
+</div>

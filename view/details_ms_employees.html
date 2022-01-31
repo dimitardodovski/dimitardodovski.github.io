@@ -1,0 +1,36 @@
+  <!--css-->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+<div class="container m-4">
+<h3>New MS_Employee</h3>
+
+      
+<form name="myForm">
+
+  <div class="my-3">
+    <label for="employee_name" class="form-label" style="margin-right:10px;">MS_Employee Name</label>
+    <input type="text" id="employee_name" style="display: inline-block;" placeholder="Enter new employee" name="employee_name" data-ng-model="employee_name">
+  </div>
+
+  <div class="my-3">
+    <label for="employee_plata" class="form-label" style="margin-right:10px;">MS_Employee Plata</label>
+    <input type="text" id="employee_plata" style="display: inline-block;" placeholder="Enter new employee plata" name="employee_plata" data-ng-model="employee_plata">
+  </div>
+
+
+  <div class="my-3">
+    <label for="music_shop_id" class="form-label" style="margin-right:10px;">MS_Shop_ID</label>
+    <!-- <input type="text" id="music_shop_id" style="display: inline-block;" placeholder="Enter music shop ID" name="music_shop_id" data-ng-model="music_shop_id">-->
+    <select name="music_shop_id" id="music_shop_id" data-ng-model="music_shop_id">
+      <option value="">Izberi Prodavnica</option>
+      <option data-ng-repeat="shop in music_shop" value="{{shop.music_shop_id}}">{{shop.music_shop_name}}</option>
+    </select>
+  </div>
+
+  <button data-ng-click="addEmployee(employee_name,employee_plata,music_shop_id)" class="btn btn-warning">Save</button> <!-- primary key ne se vnesuva samo foreign  -->
+
+ </form>
+
+
+
+</div>
