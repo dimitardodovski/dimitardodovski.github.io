@@ -3,7 +3,7 @@
 class Database
 {
 	//class Attributes
-	private $db_servername = "localhost";
+	private $db_servername = "localhost:3306";
 	private $db_username   = "dimitardodovski";
 	private $db_password   = "_/(~3%YdM1+Hb8Is";
 	private $db_name	   = "id18379956_musicalshop";
