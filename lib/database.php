@@ -4,9 +4,9 @@ class Database
 {
 	//class Attributes
 	private $db_servername = "localhost";
-	private $db_username   = "root";
-	private $db_password   = "";
-	private $db_name	   = "musicalshop";
+	private $db_username   = "dimitardodovski";
+	private $db_password   = "_/(~3%YdM1+Hb8Is";
+	private $db_name	   = "id18379956_musicalshop";
 	private $conn		   = null;
 	//class methods
 	public function __construct(){
