@@ -1,0 +1,738 @@
+body {
+	margin:0
+	padding:0;
+	font-family: 'Assistant', sans-serif;
+
+}
+
+#top-bar {
+	background: rgb(0,189,86);
+background: linear-gradient(90deg, rgba(0,189,86,1) 0%, rgba(0,97,255,1) 100%);
+}
+
+.gradient-lenta {
+	 justify-content:space-between;
+	 align-items:center; 
+	 padding: 15px 0;
+}
+
+.dugme-zeleno {
+	background-color: #00bd56;
+	color:white;
+}
+
+
+.social-list ul li {
+	display: inline-block;
+	list-style-type: none;
+	padding:0 10px;
+}
+
+.logo-text {
+	font-size: 26px;
+	font-weight: bold;
+
+
+}
+
+.crn-text {
+	color:black;
+}
+
+.navbar a {
+	color:black;
+}
+
+.navbar-nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+.navbar-nav a {
+	color:black;
+	text-transform: uppercase;
+	font-size:14px;
+	font-weight: bold;
+}
+
+.navbar-nav a:hover {
+	color:#00bd56;
+	border-bottom:3px solid #00bd56;
+}
+
+
+#learn-more {
+	background-image: url(images/about.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+	padding: 200px 0;
+}
+
+main {
+	background-color: rgba(0,0,0,0.4);
+}
+
+.krste {
+	margin: 0 auto;
+}
+
+#care {
+	position: relative;
+	padding: 9em 0;
+}
+
+
+.moja {
+	position: absolute;
+	top:-50px;
+	width: 80%;
+	display: flex;
+}
+.item {
+	position: relative;
+	background-color: white;
+	color: rgba(0,0,0,0.7);
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px rgba(200,200,200,0.3);
+}
+
+.item:hover {
+	background-color: rgb(0,189,86);
+	color:white;
+}
+
+.krug {
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	background-color:rgba(230,230,230);
+	color:blue;
+	line-height: 80px;
+	text-align: center;
+	position: relative;
+	top:-36px;
+	left:39%;
+
+}
+
+.krug2 {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color:rgb(0,189,86);
+	color:white;
+	line-height: 41px;
+	text-align: center;
+	position: relative;
+	bottom:-20px;
+	left:42%;
+
+}
+
+
+.item-text {
+	padding: 0px 25px 25px 25px;
+}
+
+
+#why-us {
+	padding: 50px 0;
+}
+
+.item-container {
+	display: flex;
+	flex-flow: wrap;
+	
+}
+
+.why-item {
+	display: flex;
+	flex-direction: row;
+	width: 47%;
+	margin-bottom: 50px;
+}
+
+.why-krug {
+	background-color: rgb(0,189,86);
+	width: 70px;
+	height: 70px;
+	line-height: 82px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+.why-text h4 {
+	font-weight: bold;
+}
+
+#green {
+	background-color: rgb(0,189,86);
+	color:white;
+}
+
+.green-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-flow: wrap;
+}
+
+.green-element h1 {
+	font-size: 65px;
+}
+
+.card-header {
+	border-radius: 20px;
+	background-color: rgb(0,189,86);
+}
+
+.btn-link, .btn-link:hover {
+	text-decoration: none;
+	color:white;
+}
+
+.card-body li {
+	padding: 10px 0;
+}
+
+.s2 {
+	padding-right: 0;
+}
+
+.s3 {
+	padding-left: 0;
+}
+
+.carousel-inner {
+	padding: 105px 0;
+}
+
+.container-car {
+	width: 81%;
+	margin:0 auto;
+}
+
+
+.c-item {
+	position: relative;
+	padding: 35px 20px 20px 20px;
+	border:1px solid rgba(128,128,128,0.3);
+	box-shadow: 5px 5px 5px rgba(128,128,128,0.3);
+	min-height: 334px;
+}
+
+.c-item-text {
+	margin-top: 10px;
+}
+
+.c-item-krug {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+	text-align: center;
+	color:white;	
+	background-color: rgb(0,189,86);
+	top:-25px;
+	left:30px;
+}
+
+.c-item-slika-text {
+	margin-top: 55px;
+}
+
+.c-item-slika img {
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+}
+
+.c-item-title {
+	line-height: 15px;
+}
+
+.carousel-indicators li {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	background-color: rgb(0,189,86);
+	margin:0 10px;
+}
+
+
+.pack-item {
+	box-shadow: 2px 2px 5px rgba(128,128,128,0.2);
+}
+
+.pack-item:hover {
+	box-shadow: 2px 2px 5px rgba(128,128,128,0.4);
+}
+
+
+.pack-text h6 {
+	color:rgb(0,189,86);
+	font-weight: bold;
+}
+
+.cena h1 {
+	font-size: 70px;
+}
+
+sub, sup {
+	font-size: 25px;
+}
+
+sup {
+	margin-top: 40px;
+	padding: 0 5px;
+}
+
+sub {
+	margin-top: 50px;
+}
+
+.pack-list ul li {
+	list-style-type: none;
+}
+
+.pack-list ul {
+	padding-left: 0;
+	margin-bottom: 40px;
+}
+
+.pack-list li {
+	padding: 10px 0;
+}
+
+
+.pack-list i {
+	color:rgb(0,97,255);
+	margin-right: 5px;
+}
+
+.btn-zeleno {
+
+	background: rgb(0,189,86);
+	color:white;
+	padding: 10px 45px;
+	margin-bottom: 20px;
+
+}
+
+.pets-img {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+
+.pets1 img {
+	min-height: 253px;
+	border-radius: 5px;
+}
+
+.pets1 {
+	width: 32%;
+	margin-bottom: 22px;
+}
+
+
+.news-item {
+	box-shadow: 2px 2px 5px rgba(128,128,128,0.2);
+}
+
+.news-item img {
+	border-radius: 7px;
+}
+
+.news-text {
+	font-size: 17px;
+}
+
+.news-data, .news-author {
+	color:rgb(190,190,190);
+}
+
+
+.news-comment {
+	color:rgb(0,189,86);
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+#free {
+	height: 570px;
+	background-image: url(images/bg_3.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: repeat;
+}
+
+.free-form {
+	height: 570px;
+	width: 50%;
+	float:right;
+	background: rgb(0,189,86);
+	background: linear-gradient(240deg, rgba(0,189,86,1) 0%, rgba(0,97,255,1) 100%);
+}
+
+.form-control {
+	padding: 1.375rem .75rem;
+}
+
+
+footer {
+	background-color: #201c1c;
+	color:white;
+
+}
+
+
+
+
+
+.green-line {
+	width: 60px;
+	height: 6px;
+	background-color: rgb(0,189,86);
+	margin-bottom: 40px;
+}
+
+.footer-item {
+	margin-top: 20px;
+}
+
+.footer-item ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.footer-item ul {
+	padding-left: 0;
+}
+
+.footer-item li {
+	margin: 0 5px;
+	color: rgb(0,189,86);
+}
+
+.footer-item p {
+	color:grey;
+}
+
+.ikona-krug {
+	background-color: rgb(80,80,80);
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 41px;
+}
+
+.footer-news-item {
+	margin-bottom: 17px;
+}
+
+.footer-slika {
+	width: 217px;
+	height: 60px;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer-links ul li {
+	list-style-type: none;
+	display: block;
+}
+
+.footer-links a {
+	color:grey;
+}
+
+.footer-links li {
+	margin: 10px 0;
+	font-size: 19px;
+}
+
+.footer-nfo {
+	line-height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+	.contact {
+		display: none;
+	}
+
+	.gradient-lenta {
+	 justify-content:center;
+	 align-items:center; 
+	 padding: 60px 0;
+	}
+
+	.social-list {
+		display: flex;
+		justify-content: space-around;
+		font-size: 30px;
+	}
+
+	.item {
+	margin-bottom: 80px;
+	}
+
+
+
+	.krug {
+		top:-36px;
+		left:39%;
+
+	}
+
+	.krug2 {
+		left: 43%;
+	}
+
+
+	#care {
+		padding: 484px 0;
+	}
+
+
+
+
+
+
+	#why-us {
+		text-align: center;
+		padding: 0 25px;
+	}
+
+	.why-item {
+		flex-direction: column;
+		width: 100%;
+	}
+
+	.why-item-left {
+		justify-content: center;
+		margin-bottom: 15px;
+	}
+
+	.green-element {
+		width:100%;
+	}
+
+	.faq-container {
+		width: 90%;
+	}
+
+	.faq-intro {
+		text-align: center;
+	}
+
+
+
+	.s2 {
+	padding-right: 14px;
+}
+
+.s3 {
+	padding-left: 14px;
+}
+
+
+.container-car {
+	width: 90%;
+	margin:0 auto;
+}
+
+
+.c-item {
+	margin-bottom: 55px;
+}
+
+.c-item-title {
+	line-height: 11px;
+}
+
+.carousel-inner {
+	padding: 70px 0;
+}
+
+
+.pets1 {
+	width: 100%;
+	margin-bottom: 17px;
+}
+
+
+.pets-img {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#free {
+	height: 123%;
+}
+
+.free-form {
+	width: 100%;
+	height: 123%;
+}
+
+.free-form-content h1 {
+	text-align: center;
+}
+
+
+.ikona-krug {
+	width:65px;
+	height: 65px;
+	line-height: 66px;
+	font-size: 35px;
+}
+
+
+.footer-links li {
+	margin: 10px 0;
+	font-size: 25px;
+}
+
+
+
+
+
+
+
+
+	
+}
+
+
+
+@media (min-width: 577px) and (max-width: 768px) {
+
+	.item-self {
+		width: 100%;
+		margin-left: 152px;
+		margin-top: 60px;
+		
+	}
+
+		#care {
+	padding: 284px 0;
+	}
+
+	.krug {
+		top:-36px;
+		left:37%;
+
+	}
+
+	.krug2 {
+		left: 43%;
+	}
+
+
+
+.s1 {
+	display: none;
+}
+
+	.s2 {
+	padding-left: 0;
+}
+
+.s3 {
+	padding-right: 0px;
+}
+
+.c-item {
+	margin-bottom: 50px;
+}
+
+.c3-margin {
+	width: 100%;
+	margin-left: 140px;
+}
+
+.pets1 {
+	width: 49%;
+	margin-bottom: 17px;
+}
+
+.free-form {
+	width: 100%;
+}
+
+}
+
+
+
+
+
+@media (min-width: 769px) and (max-width: 1024px;) {
+
+	.s2 {
+	padding-right: 0;
+}
+
+.s3 {
+	padding-left: 0;
+}
+
+
+
+
+.c-item {
+	min-height: 400px;
+}
+
+.free-form {
+	width: 100%;
+{
+
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+	.pets1 {
+	width: 49%;
+	margin-bottom: 17px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
