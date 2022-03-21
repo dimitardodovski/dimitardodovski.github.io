@@ -1,0 +1,20 @@
+.no-gutters {
+	margin-right: -40px;
+	margin-left: -40px;
+}
+
+
+.ikona {
+	position: absolute;
+	float: left;
+	top:108px;
+}
+
+.fa-camera {
+	font-size: 20px;
+}
+
+.list-group a {
+	text-decoration: none;
+}
+
