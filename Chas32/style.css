@@ -1,0 +1,194 @@
+body {
+	padding: 0;
+	margin:0;
+	font-family: 'Inter', sans-serif;
+}
+
+head {
+
+	background-image: url(img/hero-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+
+
+
+
+.sofra-slika {
+	position: relative;
+}
+
+
+
+
+.popust {
+	position: absolute;
+	bottom:0px;
+	background-color: #ffb40c;
+	padding: 10px;
+	border-radius:0 15px 0 15px;
+
+}
+
+.popust p {
+	line-height: 15px;
+}
+
+.popust-brojka {
+	font-size:45px;
+}
+
+.rounded-3 {
+	border-radius: 15px;
+}
+
+.sofra-text h5 {}
+
+.preostanato {
+	background-color: #fdeadf;
+	}
+
+.text-remaining {
+	color:#f17228;
+	font-weight: bold;
+	padding: 5px 10px;
+	display: inline-block;
+
+}
+
+#how-does {
+	padding: 75px 0;
+	background: rgb(253,234,223);
+	background: linear-gradient(180deg, rgba(253,234,223,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+
+.bg-open {
+	background-color: #ebf5e2;
+	color:#79b93c;
+}
+
+
+
+.dark-orange {
+	background-color: #ff6600;
+}
+
+.dark-orange-text {
+	color: #ff6600;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.orange-text {
+	color:orange;
+}
+
+
+
+
+.carousel-inner {
+	padding: 0 66px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+	top:120px;
+	width: 40px;
+	height:40px;
+	border-radius: 50%;
+	background-color: #ff6600;
+	color:white;
+}
+
+.karticka {
+	width: 18%;
+}
+
+.karticka-produkt {
+	font-weight: bolder;
+}
+
+.karticka-ikona {
+	color:orange;
+}
+
+
+.featured-image {
+	position: relative;
+}
+
+.popust-delivery {
+	position: absolute;
+	top:10px;
+	left:10px;
+	font-weight: bold;
+}
+
+.tag-radius {
+	border-radius: 6px;
+}
+
+#featured-restaurants {
+	padding-top:50px;
+}
+
+.featured-item {
+	margin-bottom: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+	.karticka {
+		width: 100%;
+		margin-bottom: 60px;
+	}
+
+	.karticka-slika {
+		text-align: center;
+	}
+
+	.karticka-text {
+
+		width: 75%;
+		margin: 0 auto;
+	}
+
+	.featured-item-text-1-left {
+		font-size: 20px;
+	}
+
+	.sofra-item {
+		margin-bottom: 50px;
+	}
+
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+	.karticka {
+		width: 48%;
+		margin-bottom: 25px;
+		
+	}
+
+	.sofra-item {
+		margin-bottom: 50px;
+	}
+
+
+}
