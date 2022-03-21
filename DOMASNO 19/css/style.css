@@ -1,0 +1,516 @@
+header {
+	background-image: url(../img/slide_5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top:140px;
+}
+
+.shirina64 {
+	width: 75%;
+}
+
+.pnaslov {
+	font-size: 19px;
+}
+
+.naslovi {
+	font-size: 77px;
+}
+
+.btn, .view-more {
+	font-size: 12px;
+}
+
+.header-item {
+	background-color: rgba(0,0,0,0.5)
+}
+
+.header-item:hover {
+	background-color: rgba(0,0,0,0.7)
+}
+
+.naslov-serif {
+	font-family: 'Roboto Slab', serif;
+	font-size: 17px;
+}
+
+.naslov-serif2 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+}
+
+.naslov-serif3 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 58px;
+	color:white;
+}
+
+.naslov-serif4 {
+	font-family: 'Roboto Slab', serif;
+	font-size: 35px;
+}
+
+
+.view-more:hover {
+	text-decoration: none;
+}
+
+.ikona {
+	font-size: 40px;
+}
+
+.header-item-row {
+	flex-wrap: nowrap;
+}
+
+.card-body {
+	position: relative;
+}
+
+.card-krug-slika img {
+	position: absolute;
+	width: 25%;
+	border:3px solid white;
+	border-radius: 100%;
+	top:-20%;
+	left:37%;
+}
+
+.card-text {
+	font-size: 12px;
+	color: grey;
+}
+
+.card-title {
+	font-size: 17px;
+}
+
+.card-footer {
+	border:0px ;
+	position: relative;
+}
+
+.linija {
+	width: 95%;
+
+}
+
+.card {
+	height: 370px;
+}
+
+
+
+.orange-line {
+	width:22%;
+	height: 5px;
+	background-color: orange;
+	position: absolute;
+	left:39%;
+	top:26px;
+}
+
+.btn-dark {
+	background-color: black;
+	width: 125px;
+}
+
+
+#register {
+	background-image: url(../img/bg_register_now.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.opacity-filter {
+	background-color: rgba(0,0,0,0.5);
+}
+
+.reg-txt p {
+	padding-top: 50px;
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.krugovi {
+	position:relative;
+	border:1px solid white;
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	text-align: center;
+	
+}
+
+.krugovi-h2 {
+	position: absolute;
+	margin: 8px 15px;
+}
+
+
+.krugovi-p {
+	font-size:12px !important;
+	position: absolute;
+	margin:-11px 11px;	
+}
+
+.mkorekcija {
+	padding-left: 6px;
+}
+
+.card {
+	overflow: hidden;
+	height: 400px;
+	min-width: 200px;
+}
+
+
+
+.card-header2 {
+	position: absolute;
+	width: 120%;
+	height: 60%;
+	border-radius: 100%;
+	top:-100px;
+	left:-10%;
+}
+
+.card-title2 {
+	padding: 130px 74px;
+	text-align: center;
+}
+
+.pad-top {
+	padding-top: 186px;
+}
+
+.no-padding {
+	padding:0px 0px;
+}
+
+
+
+.form-control {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.mal-text {
+	font-size: 10px;
+}
+
+.r-border {
+	border-right: 1px solid rgba(0,0,0,0.1);
+	height: 50%;
+}
+
+#news {
+
+	background-image: url(../img/bg_lastest_new.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 20px 0px;
+
+}
+
+.slika-news {
+	position: relative
+}
+
+.orange-box {
+	position:absolute;
+	top:92%;
+	left:13.6%;
+	background-color: orange;
+	width: 72%;
+}
+
+.orange-box-txt {
+	font-size: 12px;
+}
+
+.orange-subtext {
+	position: absolute;
+	top:111%;
+	left:15.6%;
+
+}
+
+.carousel-item img {
+	border-radius: 100%;
+}
+
+
+.carousel-txt {
+	padding: 0px 60px;
+}
+
+.envelop {
+	background-image: url('https://educationwp.thimpress.com/demo-1/wp-content/themes/eduma/images/bg-newletter.png');
+	
+	background-repeat: no-repeat;
+	background-position: 53% 0%;
+
+
+}
+
+.envelop-text {
+	padding:2% 18%;
+	margin-top: 70px;
+}
+
+
+
+#crna {
+	background-color: black;
+}
+
+.crna {
+	background-color: black;
+}
+
+
+
+
+.link1 a {
+	text-decoration: none;
+	color:white;
+
+}
+
+
+.link1 a:hover {
+	
+	color:orange;
+
+}
+
+
+
+
+.navbar-light .navbar-nav .nav-link {
+	font-size: 12px;
+	color:black;
+	text-transform: uppercase;
+}
+
+
+.footer-lista ul {
+	list-style-type: none;
+	text-align: left;
+	padding:0px;
+	line-height: 36px;
+}
+
+
+
+.footer-lista li a {
+	color:grey;
+	text-decoration: none;
+
+
+}
+
+.footer-lista a:hover {
+	color: white;
+}
+
+
+footer {
+
+	background-image: url(../img/bg-footer.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.filter-yellow {
+	background-color: rgba(200,150,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+
+	.shirina64 {
+		width: 100%;
+	}
+
+	.header-item-row {
+	flex-wrap: wrap;
+}
+	.header-item {
+		padding: 0 20px;
+	}
+
+	.text-item {
+		margin:0 15px;
+	}
+
+	.ikona {
+		font-size: 35px;
+	}
+
+	.levodesno {
+		visibility: hidden;
+	}
+
+	.card {
+		height: 100%;
+	}
+
+	.card-text {
+		margin-top: 56px;
+	}
+
+	.text-item {
+		text-align: center;
+	}
+
+	.reg-txt p {
+	font-size: 16px;
+	
+	}
+
+
+	.card-krug-slika img {
+	position: absolute;
+	width: 27%;	
+	top:-23%;
+	left:36%;
+	}
+
+	.price {
+		margin-left: 226px;
+	}
+
+	.card-header2 {	
+	left:-33%;
+	width: 190%;
+	height: 60%;
+	left:-45%;
+	}
+
+
+
+#news .mb-5, .my-5 {
+    margin-bottom: 6rem!important;
+}
+
+
+.form {
+	padding-top: 50px;
+}
+
+
+
+
+.card {
+	margin-top: 70px;
+}
+
+.card-title2 {
+	padding: 124px 228px;
+	text-align: center;
+}
+
+
+
+.envelop {	
+	background-position: 60% 100%;
+	background-size: contain;
+}
+
+
+#crna {
+	padding-bottom: 20px;
+}
+
+
+.orange-box {
+    position: absolute;
+    top: 95%;
+    left: 13%;
+    width: 72%;
+    background-color: orange;
+}
+
+
+.orange-subtext {
+	top: 106%;
+    left: 24%;
+
+}
+
+}
+
+
+@media screen and (min-width: 1367) and (max-width: 1899) {
+
+		.orange-box {
+    position: absolute;
+    top: 93%;
+    left: 13%;
+    width: 72px;
+}
+
+
+}
+
+
+@media screen and (min-width: 1900px) {
+
+		.card-krug-slika img {
+	position: absolute;
+	width: 27%;	
+	top:-29%;
+	left:36%;
+	}
+
+	.orange-box {
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    width: 220px;
+    background-color: orange;
+}
+
+
+.orange-subtext {
+	top: 108%;
+    left: 21%;
+
+}
+
+.envelop-text {
+	padding:2% 25%;
+	margin-top: 70px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
