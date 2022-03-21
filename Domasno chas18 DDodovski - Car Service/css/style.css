@@ -1,0 +1,327 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	color:rgb(128,128,128);
+	padding: 0;
+	margin:0;
+}
+
+.top-bar-text {
+	font-size: 11px;
+	color:#c2c2a3;
+}
+
+
+.social-icons-top ul {
+	list-style-type: none;
+	
+
+}
+
+.social-icons-top a {
+	color:#c2c2a3;
+}
+
+.social-icons-top a:hover {
+	color:#767676;
+}
+
+
+
+
+.social-icons-top ul li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 0px 10px;
+	border-left: 1px solid #c2c2a3;
+}
+
+.navbar-light .navbar-brand {
+	color:rgb(0,128,255);
+	font-weight: bolder;
+
+}
+
+.nav-link {
+	color:grey;
+}
+
+
+.podnaslov {
+	padding: 0px 250px;
+}
+
+
+.podlinija {
+	width: 20%;
+
+}
+
+.fa-li, .fa-5x {
+	color:rgb(0,128,255);
+}
+
+
+
+
+.btn {
+	font-size: 14px;
+	color:rgb(0,128,255);
+	text-transform: uppercase;
+}
+
+.servis-text {
+	padding:0 40px;
+}
+
+.dugme {
+	border:1px solid #c2c2a3;
+}
+
+.card-img, .card-img-top {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+
+
+.footer-levo {
+	width:95%;
+	padding-left: 14px;
+}
+.footer-desno {
+	width: 5%;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+
+.card-footer {
+	height: 50px;
+}
+
+
+
+.fut-text-desno {
+	color: rgb(0,128,255);
+}
+
+.bez-padinzi {
+	padding:0px 0px;
+}
+
+
+.carousel-inner {
+	padding:50px 0px;
+}
+
+
+.karuzel-vnatresen {
+	padding:100px 0px;
+	background-image: url(../images/image_012.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.karuzel-slajd-kontejner {
+	width: 60%;
+	margin:0 auto;
+	text-align: center;
+
+}
+
+ .karuzel-slajd-text {
+ 	font-style: italic;
+ 	font-weight: lighter;
+ }
+
+ .over-cont {
+ 	width: 80%;
+ 	margin:0 auto;
+ }
+
+ .h5fontsize {
+ 	font-size: 18px;
+ }
+
+ .overview-text {
+ 	font-size: 11px;
+ }
+
+ .over-padding {
+ 	padding: 0 40px;
+ }
+
+ .prasanje-lenta {
+ 	width: 90%;
+ 	margin: 0 auto;
+ 	text-align: center;
+ }
+
+.prasanje {
+	display: inline-block;
+	
+}
+
+.carousel-indicators {
+	padding-top: 40px;
+	bottom: -30px;
+}
+
+.carousel-indicators li {
+	border: 2px solid grey;
+	border-radius: 50%;
+	width: 17px;
+	height: 17px;
+	margin-right: 10px;
+	
+}
+
+.aktiv {
+	border: 2px solid rgb(0,128,255);
+}
+
+#mission {
+	border-bottom: 1px solid #c2c2a3;
+}
+
+footer {
+	color:white;
+	background-color: #767676;
+
+}
+
+.futer-info {
+	line-height: 12px;
+}
+
+.futer-info2 {
+	line-height: 0px;
+}
+
+.linija {
+	width: 100%;
+	background-color: #a9a9a9;
+}
+
+.linija2 {
+	width: 20%;
+	background-color: #a9a9a9;
+	transform: translateX(-92px);
+}
+
+.fut-ikon {
+	 color: #a9a9a9;
+
+}
+
+.list-servisi {
+	transform: translateX(-40px);
+}
+
+.fa-li2 {
+	color:#a9a9a9;
+	margin-right: 10px;
+}
+
+.btn-outline-light {
+	border: 1px solid #a9a9a9;
+}
+
+.footer-tag {
+	text-decoration: none;
+	color:#a9a9a9;
+	font-size: 10px;
+
+}
+
+.btn {
+	margin: 2px 0px;
+}
+
+.btn-link:hover {
+	text-decoration:none;
+	color:rgb(128,128,128);
+
+}
+
+.btn-link {
+	color:#a9a9a9;
+}
+
+.redica-social {
+	margin-left: -5px;
+}
+
+.redica-social i {
+	color:#a9a9a9;
+
+}
+
+.max-shirina {
+	max-width: 41%;
+}
+
+.posleden {
+	width: 80%;
+	text-align: center;
+	margin:0 auto;
+	color:#a9a9a9;
+}
+
+.pozadina {
+	background-image: url(../images/image_01.jpg);
+	height: 450px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pdfb {
+	padding: 0 14px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+	.podnaslov {
+	padding: 0px 50px;
+	
+}
+	.choose-item {
+		margin-bottom: 60px;
+		padding:0 75px;
+	}
+
+	.over-item {
+		margin-bottom: 50px;
+	}
+
+	
+	.carousel-inner {
+		text-align: center;
+	}
+
+	.linija2 {
+	transform: translateX(-142px);
+}
+
+	.mission-center {
+		text-align: center;
+	}
+
+}
+
+@media (max-width: 360px) {
+
+
+	.linija2 {
+	transform: translateX(-94px);
+}
+
+
+
+}
+
