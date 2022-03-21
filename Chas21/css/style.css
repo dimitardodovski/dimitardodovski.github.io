@@ -1,0 +1,16 @@
+
+.header-top p {
+	margin-top:1rem;
+}
+
+.ikoni-top {
+	margin:1rem 0;
+}
+
+.ikoni-top ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 5px;
+}
+
+

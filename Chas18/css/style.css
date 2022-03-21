@@ -1,0 +1,46 @@
+.meni-padding {
+	padding: 15px 100px;
+}
+
+.paketi {
+	background: #0a8cff;
+    background: -moz-linear-gradient(top, #0a8cff 0%, #054680 100%);
+    background: -webkit-linear-gradient(top, #0a8cff 0%, #054680 100%);
+    background: linear-gradient(to bottom, #0a8cff 0%, #054680 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0a8cff', endColorstr='#054680',GradientType=0 );
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.cena-content h2 {
+	color:#33D4D6;
+	padding: 10px 0px;
+}
+
+.paket-opis {
+	border-top: 1px solid #dcdcdc;
+	padding: 10px 0px;
+}
+
+.pozadina-faq {
+	background-image: url("../images/faq/faq.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.faq-content .card-header {
+	background-color: white;
+}
+
+.faq-content .btn-link {
+	color: black;
+	font-weight: bold;
+}
+
+.faq-content .btn-link:hover {
+	text-decoration: none;
+}

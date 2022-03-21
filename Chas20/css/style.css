@@ -1,0 +1,17 @@
+#header {
+	background-image: url(../images/961-2560x1707.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#oblaci {
+	background-image: url(../images/685-3000x2000.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+
+.opacity {
+	background-color: rgba(23,162,184,0.5);
