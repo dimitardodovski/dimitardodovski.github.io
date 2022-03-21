@@ -1,0 +1,732 @@
+
+
+
+body {
+	margin:0;
+	padding: 0;
+}
+
+
+
+.carousel-indicators li {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: left;
+	margin: 0 7px;
+	background-color: orange;
+	color:white;
+}
+
+
+.carousel-indicators {
+	justify-content: flex-start;
+	padding-bottom: 30px;
+}
+
+
+	
+
+
+
+#top-nav {
+	background-color: black;
+	border-bottom: 2px solid orange;
+}
+
+.bg-black {
+	background-color: black;
+}
+
+.btn {
+	border-radius: 20px;
+	font-weight: bold;
+	min-width: 140px;
+}
+
+.navbar-nav li {
+	padding: 0 10px;
+	font-weight: bold;
+}
+
+
+.item-2 {
+	position: relative;
+	height: 450px;
+
+}
+
+.black-filter {
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+}
+
+.article-slika2 {	
+	padding: 27px 19px;
+}
+
+
+
+.article-text2 {
+	position: absolute;
+	bottom:0px;
+	padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#recent-games {
+	background-image: url(img/recent-game-bg.png);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+.bg-new {
+	background-color: #ff205f;
+}
+
+.bg-racing {
+	background-color: #694eae;
+}
+
+.bg-rose {
+	background-color:#f623aa;
+}
+
+
+.bg-adventure {
+	background-color: #40abf5;
+}
+
+.bg-strategy {
+	background-color: #50ae63;
+}
+
+.d-inline {
+	color:white;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+
+
+.article-slika {
+	height: 200px;
+	padding: 25px 15px;
+}
+
+
+
+
+.bg-parametri {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg-orange {
+	background-color: orange;
+}
+
+
+
+.star, .heart {
+	width: 40px;
+	height: 40px;
+	color:white;
+	line-height: 40px;
+	text-align: center;
+}
+
+.slajd1 {
+	background-image: url(img/slider-1.jpg);
+}
+
+.slajd2 {
+	background-image: url(img/slider-2.jpg);
+}
+
+.slajd1, .slajd2 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 250px 203px;
+}
+
+.cf-2 {
+	display: flex;
+	width: 100%;
+	background-color: black;	
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+.ln0, .ln1 {
+	padding: 25px 0;
+}
+
+
+
+
+
+
+
+
+.slider-text {
+	width: 90%;
+	color: white;
+	text-align: left;
+}
+
+.slider-text h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.slider-text p {
+	width: 60%;
+}
+
+
+
+
+
+#tournaments {
+	background-image: url(img/pattern.png);
+	background-repeat: repeat;
+}
+
+
+.bg-orange2 {
+	background-color: #f96e14;
+}
+
+.tour-container {
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.tour-item {
+	background-color: #252525;
+	width: 49%;
+}
+
+
+
+.text-color {
+	color:#252525;
+}
+
+
+
+.d-inline-tour {
+	position: absolute;
+	top:4px;
+}
+
+.d-inline2 {
+	display: inline;
+
+	color:#252525;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+
+}
+
+
+.tour-item-ramka {
+	padding: 9px 0px;
+}
+
+.tour-item-content {
+	margin: 20px 15px;
+}
+
+.tour-item-slika img {
+	margin-left: 10px;
+}
+
+.tour-item-text {
+	padding: 14px 10px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
+
+.tour-item-text h5 {
+	color:orange;
+}
+
+.tour-item-text span {
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.sp-1 {
+	color:grey;
+}
+.sp-2 {
+	color:white;
+}
+.sp-3 {
+	color:orange;
+}
+
+.sp-4 {
+	color:#f623aa;
+}
+
+.sp-5 {
+	color:#40abf5;
+
+}
+
+
+
+#reviews {
+	background-image: url(img/review-bg.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.review-item {
+	position:relative;
+	border:1px solid rgba(128,128,128,0.25)
+}
+
+.review-rate-circle {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	font-size: 22px;
+	font-weight: bold;
+	border-radius: 50%;
+	top:-30px;
+	left:22px;
+
+}
+
+.review-item img {
+	width: 100%;
+}
+
+.review-item:hover {
+	box-shadow: 5px 5px 15px rgba(128,128,128,0.35);
+}
+
+footer {
+	background-image: url(img/pattern.png);
+	background-repeat: repeat;
+}
+
+.footer-top-bg img {
+	width: 125%;
+	margin-bottom: -15px;
+}
+
+.footer-2 {
+	background-color: #252525;
+	border:1px solid grey;
+}
+
+.pic {
+	width: 85px;height: 85px;
+
+}
+
+.pic-info {
+	width: 66%;
+}
+
+.pic-info span {
+	font-size: 14px;
+}
+
+.pic2 {
+	width: 60px;height: 60px;
+	background-position: center;background-size: cover;border-radius:50%
+
+}
+
+.pic-info2 {
+	width: 70%;
+}
+
+.pic-info2 span {
+	font-size: 14px;
+}
+
+
+.footer-2 {
+	min-height: 438px;
+}
+
+#bot {
+	background-color: #252525;
+	color:grey;
+}
+
+.bot-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bot-meni ul li {
+	display: inline-block;
+	list-style-type: none;
+}
+
+.bot-meni li {
+	padding: 0 10px;
+}
+
+.bot-meni a {
+	text-decoration: none;
+	color:grey;
+}
+
+.bot-meni a:hover {
+	color:white;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+	.btn {
+	margin:15px 0;
+}
+
+.slajd1, .slajd2 {
+	padding: 130px 20px;
+}
+
+.slider-text, .slider-text p {
+	width: 85%;
+	text-align: center;
+	margin: 25px auto;
+}
+
+.carousel-indicators {
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+
+
+
+.carousel-indicators li {
+	width: 35px;
+	height: 35px;
+	margin: 0 10px;
+	color:white;
+}
+
+.ln1 {
+	width: 100%;
+	justify-content: center;
+	font-size: 13px;
+}
+
+
+.ln0 {
+	width: 100%;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+
+.d-inline-tour {
+	position: relative;
+	top:0px;
+	width: 100%;
+	text-align: center;
+}
+
+.d-inline {
+	position: relative;
+	width: 100%;
+
+}
+
+.d-inline2 {
+	display: block;
+	top:0px;
+	text-align: center;
+}
+
+.tour-item-ramka {
+	padding: 0;
+}
+
+.tour-container {
+	margin-top: 0;
+}
+
+
+
+
+.tour-item-content {
+	padding: 20px;
+}
+
+
+.tour-item {
+	width: 100%;
+	margin-bottom: 25px;
+}
+
+.tour-item-slika img {
+	margin-left: 0;
+}
+
+.tour-item-text {
+		
+	margin-left: 0;
+	margin-top: 25px;
+}
+
+.tour-item-text span {
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.item-2 {
+	margin-bottom: 16px;
+}
+
+
+.review-item {
+	margin-bottom: 90px;
+}
+
+.footer-top-bg img {
+	width: 100%;
+}
+
+.footer-1, .footer-2 {
+	margin-bottom: 16px;
+}
+
+.footer-1 {
+	text-align: center;
+}
+
+
+.footer-top-bg img {
+	width: 100%;
+	margin-bottom: 20px;
+
+}
+
+.bot-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 10px;
+}
+
+.bot-text {
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.bot-meni ul li {
+	text-align: center;
+	display: block;
+	list-style-type: none;
+}
+
+.bot-meni ul {
+	padding:0;
+	line-height: 35px;
+
+}
+
+.bot-meni li {
+	font-size: 20px;
+	
+
+}
+
+
+
+
+}
+
+
+@media (min-width: 577px) and (max-width: 768px){
+
+	.slajd1, .slajd2 {
+	padding: 130px 100px;
+	}
+
+	.slider-text, .slider-text p {
+	width: 85%;
+	text-align: center;
+	margin: 25px auto;
+	}
+
+	.carousel-indicators {
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+	.ln0 {
+
+		width: 100%;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 30px;
+
+	}
+
+
+	.ln1 {
+	width: 100%;
+	justify-content: center;
+	font-size: 19px;
+}
+
+.tour-item {
+	width: 100%;
+}
+
+.tour-item-text span {
+	font-size: 15px;
+	line-height: 45px;
+}
+
+.review-item {
+	margin-bottom: 90px;
+}
+
+.footer-top-bg img {
+	width: 100%;
+}
+
+.footer-1, .footer-2 {
+	margin-bottom: 16px;
+}
+
+.footer-1 {
+	text-align: center;
+}
+
+.footer-top-bg img {
+	width: 100%;
+	margin-bottom: 10px;
+
+}
+
+
+.pic {
+	width: 80px;height: 80px;
+
+}
+
+.bot-meni li {
+	padding: 0 7px;
+}
+
+
+
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1200px) {
+	.ln0, .ln1 {
+		font-size: 18px;
+	width: 100%;
+	justify-content: center;
+}
+
+.ln0 {
+	font-size: 30px;
+}
+
+.slajd1, .slajd2 {
+	padding: 130px 100px;
+}
+
+.slider-text, .slider-text p {
+	width: 85%;
+	text-align: center;
+	margin: 25px auto;
+}
+
+.carousel-indicators {
+	justify-content: center;
+	padding-bottom: 30px;
+}
+
+.tour-item {
+	background-color: #252525;
+	width: 100%;
+}
+
+.tour-item-text span {
+	font-size: 18px;
+	line-height: 60px;
+}
+
+.review-item {
+	margin-bottom: 90px;
+}
+
+.pic-info {
+	width: 59%;
+}
+
+.pic-info2 {
+	width: 66%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
