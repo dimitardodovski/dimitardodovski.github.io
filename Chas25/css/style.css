@@ -1,0 +1,192 @@
+body {
+	font-family: Verdana;
+	font-smoothing:antialiased;
+}
+
+.container2 {
+	display: flex;
+	flex-flow: row;
+	text-align: center;
+	width: 82%;
+	margin: 0 auto;
+	padding: 15px 5px;
+	
+	
+	
+}
+
+.x1 {
+	order:1;
+	flex-grow: 3.9;
+	text-align: left;
+
+	
+
+}
+
+.x2 {
+
+	order:2;
+	flex-grow:0.5;
+	
+
+}
+
+.x3 {
+	order:3;
+	flex-grow:0.6;
+
+
+}
+
+.x4 {
+	order:4;
+	flex-grow:0.4;
+
+}
+
+
+#top-bar  {
+	background-color: #2b2b2b;
+	color:white;
+}
+
+.tocka-zolta {
+	color:yellow;
+}
+
+
+.navigacija-ikona {
+	border: 1px solid orange;
+	color:orange;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	line-height: 40px;
+	text-align: center;
+}
+
+.top-contact h5 {
+	font-size: 12px;
+	color:grey;
+}
+
+.top-contact p {
+	font-size: 10px;
+}
+
+.social-lista ul li {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 5px;
+	border:1px solid orange;
+	border-radius: 50%;
+	width: 25px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: grey;
+	color:white;
+}
+
+.social-lista ul li a {
+	color:white;
+}
+
+.bg-orange {
+	background-color: orange;
+}
+
+.navbar-nav a {
+	color:gray;
+
+}
+
+#pricing {
+	padding: 50px 0;
+}
+
+.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.pricing-item {
+	width:240px;
+	height: 350px;
+	border-radius: 2%;
+	text-align: center;
+	margin: 20px 0px;
+}
+
+
+
+
+
+
+
+.navbar-nav a:hover, .nav-link a:hover {
+	background-color: orange;
+	color:white;
+
+}
+
+
+@media screen and (max-width: 576px) {
+
+#top-bar {
+	text-align: center;
+
+}
+
+.container2 {
+	display: flex;
+	flex-flow: column;
+	text-align: center;
+
+	padding: 15px 5px;
+	
+	
+	
+}
+
+
+
+.container5 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.pricing-item {
+	margin: 20px 0;
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+	.container3 {
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+
+	flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
